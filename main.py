@@ -3,7 +3,10 @@ import sys
 from pathlib import Path
 
 import kivy
-kivy.require("2.2.0")
+"""
+    #RAH# Was: kivy.require("2.2.0")  Replaced with current version 2.1.0
+"""
+kivy.require("2.1.0")
 
 from kivy.core.window import Window
 

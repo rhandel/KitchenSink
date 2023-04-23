@@ -33,7 +33,9 @@ source.include_exts = py, gif, png, jpg, jpeg, ttf, kv, json, txt, md
 # android.enable_androidx = True
 
 # (str) Application versioning (method 2)
-version = 0.0.1
+#version = 0.0.1
+#RAH#
+version = 0.0.4
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
@@ -41,12 +43,16 @@ requirements = python3, kivy==master, https://github.com/kivymd/KivyMD/archive/m
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
+#RAH#
+#orientation = landscape
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 0
 
 # (int) Target Android API, should be as high as possible.
 # android.api = 31
+#RAH#
+android.api = 31
 
 # (bool) If True, then skip trying to update the Android sdk
 # This can be useful to avoid excess Internet downloads or save time
@@ -60,7 +66,9 @@ android.skip_update = False
 android.accept_sdk_license = True
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.archs = armeabi-v7a, arm64-v8a
+#android.archs = armeabi-v7a, arm64-v8a
+#RAH#
+android.archs = arm64-v8a
 
 # android.release_artifact = apk
 
